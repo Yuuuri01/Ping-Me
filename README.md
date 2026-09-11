@@ -13,7 +13,7 @@
 
 ## 📖 Overview
 
-**PING-ME** (formerly `cpy_scanner`) is a professional-grade network diagnostic tool that bridges the gap between high-level user interface control and uncompromising low-level system execution. 
+**PING-ME** (formerly `PingMe`) is a professional-grade network diagnostic tool that bridges the gap between high-level user interface control and uncompromising low-level system execution. 
 
 Designed with modern systems engineering principles, this tool features a strict separation of concerns:
 * 🐍 **Python Orchestrator**: Manages the CLI, dynamic compilation, real-time output streaming, and automatic workspace cleanup.
@@ -63,7 +63,7 @@ To run PING-ME, you need a Linux environment (e.g., Kali Linux, Ubuntu) with the
    If you want to run `pingme` from anywhere in your terminal without typing the full path, run this single command from inside   the `pingme` directory:
 
 ```bash
- sudo ln -s $(pwd)/Pingme.py /usr/local/bin/Pingme
+   sudo ln -s $(pwd)/Pingme.py /usr/local/bin/Pingme
 ```
 
 4. **Run a basic scan:**
