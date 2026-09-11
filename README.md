@@ -58,19 +58,26 @@ To run PING-ME, you need a Linux environment (e.g., Kali Linux, Ubuntu) with the
    ```bash
    chmod +x shield.py
    ```
+3. System-Wide Installation (Optional)
 
-3. **Run a basic scan:**
+If you want to run `pingme` from anywhere in your terminal without typing the full path, run this single command from inside the `pingme` directory:
+
+```bash
+ sudo ln -s $(pwd)/Pingme.py /usr/local/bin/Pingme
+```
+
+4. **Run a basic scan:**
    ```bash
    ./shield.py 8.8.8.8
    ```
    *(Defaults to 5 packets)*
 
-4. **Run a custom scan with specific counts:**
+5. **Run a custom scan with specific counts:**
    ```bash
    ./shield.py -c 10 1.1.1.1
    ```
 
-5. **Read the internal manual:**
+6. **Read the internal manual:**
    ```bash
    ./shield.py --help
    # Or
