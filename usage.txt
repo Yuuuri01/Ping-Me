@@ -420,14 +420,6 @@ BUGS
 SEE ALSO
      ip(8), ss(8).
 
-HISTORY
-     The pingme command appeared in 4.3BSD.
-
-     The version described here is its descendant specific to Linux.
-
-     As of version s20150815, the pingme6 binary doesn't  exist  anymore.  It  has
-     been merged into pingme. Creating a symlink named pingme6 pointing to pingme will
-     result in the same functionality as before.
 
 SECURITY
      pingme  requires  CAP_NET_RAW  capability to be executed 1) if the program is
