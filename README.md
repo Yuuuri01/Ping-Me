@@ -51,12 +51,12 @@ To run PING-ME, you need a Linux environment (e.g., Kali Linux, Ubuntu) with the
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/pingme.git
-   cd pingme
+   cd ping-me
    ```
 
 2. **Make the orchestrator executable:**
    ```bash
-   chmod +x shield.py
+   chmod +x Pingme.py
    ```
 3. **System-Wide Installation**
   
@@ -68,20 +68,20 @@ To run PING-ME, you need a Linux environment (e.g., Kali Linux, Ubuntu) with the
 
 4. **Run a basic scan:**
    ```bash
-   ./shield.py 8.8.8.8
+   ./Pingme.py 8.8.8.8
    ```
    *(Defaults to 5 packets)*
 
 5. **Run a custom scan with specific counts:**
    ```bash
-   ./shield.py -c 10 1.1.1.1
+   ./Pingme.py -c 10 1.1.1.1
    ```
 
 6. **Read the internal manual:**
    ```bash
-   ./shield.py --help
+   ./Pingme.py --help
    # Or
-   ./shield.py -h
+   ./Pingme.py -h
    ```
 
 ## 👨‍💻 Author
