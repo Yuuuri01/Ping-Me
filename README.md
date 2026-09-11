@@ -63,7 +63,7 @@ To run PING-ME, you need a Linux environment (e.g., Kali Linux, Ubuntu) with the
    If you want to run `pingme` from anywhere in your terminal without typing the full path, run this single command from inside   the `pingme` directory:
 
 ```bash
-   sudo ln -s $(pwd)/Pingme.py /usr/local/bin/Pingme
+    sudo ln -s $(pwd)/Pingme.py /usr/local/bin/Pingme
 ```
 
 4. **Run a basic scan:**
