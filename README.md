@@ -58,9 +58,9 @@ To run PING-ME, you need a Linux environment (e.g., Kali Linux, Ubuntu) with the
    ```bash
    chmod +x shield.py
    ```
-3. System-Wide Installation (Optional)
-
-If you want to run `pingme` from anywhere in your terminal without typing the full path, run this single command from inside the `pingme` directory:
+3. **System-Wide Installation**
+  
+   If you want to run `pingme` from anywhere in your terminal without typing the full path, run this single command from inside   the `pingme` directory:
 
 ```bash
  sudo ln -s $(pwd)/Pingme.py /usr/local/bin/Pingme
